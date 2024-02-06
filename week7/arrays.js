@@ -1,6 +1,7 @@
  let students = 'mubarak marvellous kehinde ekene ayodele franca'
-
- const arrOfStds = students.split(' ')
+// this method is another way to write an array
+ const newStudents = String('mubarak marvellous kehinde ekene ayodele franca').split(' ')
+ console.log(newStudents)
  //remove last member from an array
  arrOfStds.pop()
  arrOfStds.pop()
@@ -14,9 +15,10 @@
  let otherstudent2 = ['benedicta', 'amin']
 
  arrOfStds.push(...otherstudent1)
+ console.log(arrOfStds)
 
  arrOfStds.splice(2,1)
- arrOfStds.splice(4,0,...otherstudent2)
+ arrOfStds.splice(4,0,...otherstudent2)   
  arrOfStds.splice(arrOfStds.indexOf('amin')+1,0,'ayere','timilehin')
 
 // console.log(arrOfStds)

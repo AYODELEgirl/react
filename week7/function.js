@@ -20,11 +20,11 @@ console.log(addMe(4,6))
 // }
 // console.log(multiplyNumbers(2,7))
 
-// // parse int
+// // parseInt
 // let x = '90.66'
 // // the parse int takes the integer
 
-// // parse float
+// // parseFloat
 // let y = '40.55'
 // // this will return both the integer part and tge float part together as a number
 
@@ -53,6 +53,15 @@ function sqroot(n){
   return Math.sqrt(n).toFixed(3)*1
 }
 console.log(sqroot(8))
+
+function capatalise(){
+  let userName = prompt('what is your name?')
+  let useName = String(userName).split('')
+  return alert 
+  // return alert(userName.replace(userName[0], userName[0].toUpperCase()))
+}
+capatalise()
+
 
 
 
